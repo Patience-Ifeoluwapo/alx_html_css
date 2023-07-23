@@ -1,4 +1,311 @@
 body
 {
-    background-color: blueviolet;
+    border: 3px solid black;
+    height: 100vh;
+    padding: 10px;
+}
+
+header
+{
+    border: 2px solid black;
+    height: 100px;
+    padding: 5px;
+}
+
+header div
+{
+    border: 1px solid black;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-logo
+{
+    border: 1px solid red;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.company-logo a
+{
+    border: 1px solid green;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-links
+{
+    width: 400px;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#nav-links a
+{
+    border: 1px solid red;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main
+{
+    border: 2px solid black;
+    height: inherit;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+main section
+{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#hero-section div
+{
+    border: 1px solid black;
+    width: 20%;
+    padding: 0;
+    height: 150px;
+}
+
+#hero-section div h1
+{
+    border: 1px solid blue;
+    margin: 1px;
+}
+
+#hero-section div p
+{
+    border: 1px solid purple;
+    margin: 1px;
+}
+
+#hero-section div button
+{
+    border: 1px solid orange;
+}
+
+#description-section div
+{
+    border: 1px solid black;
+    width: 50%;
+    padding: 5px;
+    height: inherit
+}
+
+#description-section div h2
+{
+    border: 1px solid rgb(140, 140, 214);
+    width: 20%;
+    padding: 5px;
+}
+
+#description-section div div
+{
+    border: 1px solid black;
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 5px;
+}
+
+#description-section div div p1
+{
+    border: 1px solid black;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#description-section div div p2
+{
+    border: 1px solid black;
+    padding: 1px;
+} 
+
+#description-section div div p3
+{
+    border: 1px solid black;
+    padding: 1px;
+}
+
+#description-section div div p4
+{
+    border: 1px solid black;
+    padding: 1px;
+}
+
+#about-section div
+{
+    border: 1px solid black;
+    width:20% ;
+    padding: 1px;
+}
+
+#about-section div p1
+{
+    border: 1px solid green;
+    padding: 1px;
+}
+
+#about-section div div
+{
+    border: 1px solid black;
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    padding: 5px;
+}
+
+#about-section div div p2
+{
+    border: 1px solid violet;
+    height: fit-content;
+    padding: 1px;
+}
+
+#about-section div div p3
+{
+    border: 1px solid purple;
+    height: fit-content;
+    padding: 1px;
+}
+
+#about-section div div p4
+{
+    border: 1px solid purple;
+    height: fit-content;
+    padding: 1px;
+}
+
+#content-section div
+{
+    border: 1px solid black;
+    width: 50%;
+    height: fit-content;
+    padding: 1px;
+}
+
+#content-section div h3
+{
+    border: 1px solid rgb(163, 163, 226);
+    width: 20%;
+    padding: 5px;
+}
+
+#content-section div div
+{
+    border: 1px solid black;
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 5px;
+}
+
+#content-section div div p1
+{
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+
+#content-section div div p2
+{
+    border: 1px solid black;
+    padding: 1px;
+}
+
+#content-section div div p3
+{
+    border: 1px solid black;
+    padding: 1px;
+}
+
+#content-section div div p4
+{
+    border: 1px solid black;
+    padding: ;
+}
+
+#membership-section div
+{
+    border: 1px solid black;
+    width: 40%;
+    padding: 1px;
+}
+
+#membership-section div h4
+{
+    border: 1px solid rgb(163, 163, 226);
+    width: 20%;
+    padding: 5px;
+}
+
+#membership-section div div
+{
+    border: 1px solid black;
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 2px;
+}
+
+#membership-section div div p1
+{
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+
+#membership-section div div p2
+{
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+
+#membership-section div div p3
+{
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+
+#membership-section div div p4
+{
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+
+#membership-section div button
+{
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
 }
